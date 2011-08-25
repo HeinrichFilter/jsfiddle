@@ -12,7 +12,7 @@
   </span>
                   <span class="formfield">
     <span class="labelsim">Last name         </span>
-    <span class="readOnlyTextValue" name="slastname" id="slastname">Dippenaaraaaaaaaaaaaaaaaa</span>
+    <span class="readOnlyTextValue" name="slastname" id="slastname">LASTNAME</span>
   </span>
         <div style="display:none;" id="loading" name="loading">loading...</div>
       </replaceContent>
