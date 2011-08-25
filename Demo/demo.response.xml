@@ -1,23 +1,5 @@
 <taconite>
-
-  <replaceContent select="#studentInfoSpan">
-		
-    		  <span class="formfield">
-    <span class="labelsim">Title         </span>
-    <span class="readOnlyTextValue" name="stitle" id="stitle">Ms</span>
-  </span>
-          <span class="formfield">
-    <span class="labelsim">Initials         </span>
-    <span class="readOnlyTextValue" name="sinitial" id="sinitial">E</span>
-  </span>
-                  <span class="formfield">
-    <span class="labelsim">Last name         </span>
-    <span class="readOnlyTextValue" name="slastname" id="slastname">LASTNAME</span>
-  </span>
-        <div style="display:none;" id="loading" name="loading">loading...</div>
-      </replaceContent>
-  
   <replace select="#btn_submit">
-            <input type="button" id="btn_submit" value="Pay" class="formbutton" onclick="submitForm(this)" />
-      </replace>
+            <input type="button" id="btn_submit" value="Pay" class="formbutton" onclick="alert('this')" />
+  </replace>
 </taconite>
